@@ -1,0 +1,24 @@
+{
+  "name": "qa-capstone",
+  "version": "1.0.0",
+  "description": "QA Capstone",
+  "main": "selectorsMethods.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atchafalaya/QA-Capstone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atchafalaya/QA-Capstone/issues"
+  },
+  "homepage": "https://github.com/atchafalaya/QA-Capstone#readme",
+  "dependencies": {
+    "chromedriver": "^97.0.0",
+    "jest": "^27.4.7",
+    "selenium-webdriver": "^4.1.1"
+  }
+}
