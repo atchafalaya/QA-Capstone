@@ -23,7 +23,9 @@ describe ("Lafayette Sheriff Tests", () => {
         await aboutUsButton.click()
     
     })
-
+    ////////////////////////////
+    /////Corrections Button
+    ///////////////////////////
     it("Can click corrections button", async () => {
     
          let correctionsButton = await driver.findElement(By.xpath("/html/body/div[1]/table/tbody/tr/td/div[2]/ul/li[3]/a"))
