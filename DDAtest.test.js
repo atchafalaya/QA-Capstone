@@ -12,6 +12,10 @@ beforeEach(async () => {
     await driver.get("https://downtownlafayette.org")
    
 })
+
+//////////////////
+////Newsletter
+/////////////////
 describe ("Lafayette Consolidated Government Tests", () => {
     it("Can click events button", async () => {
 
