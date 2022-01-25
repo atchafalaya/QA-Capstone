@@ -20,7 +20,7 @@ Sites Tested:
 [Trello](https://trello.com/b/M1dppKQV/qa-capstone-test-plans)
 
 ## <a name="api"></a>API Tests
-![API tests](https://github.com/atchafalaya/QA-Capstone/Postman_API_Requests.png)
+![API tests](https://github.com/atchafalaya/QA-Capstone/blob/master/Postman_API_Requests.png)
 
 ---
 ## <a name="me"></a>About Me
