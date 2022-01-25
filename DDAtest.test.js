@@ -1,6 +1,6 @@
 const { Builder, Capabilities, By } = require("selenium-webdriver") 
 
-jest.setTimeout(30000)
+jest.setTimeout(50000)
 
 require('chromedriver')
 
@@ -8,7 +8,7 @@ const driver = new Builder().withCapabilities(Capabilities.chrome()).build()
 
 const testNames = require('../QA-Capstone/pageObjects/testNames')
 
-beforeEach(async () => {
+beforeAll(async () => {
     await driver.get("https://downtownlafayette.org")
    
 })
@@ -29,24 +29,13 @@ describe ("Lafayette Consolidated Government Tests", () => {
     })
     it("Can subscribe to newsletter", async () => {
 
-        let subscribeButton = await driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/footer/div[3]/div/div/a"))
-        await subscribeButton.click()
+        await driver.get("https://downtownlafayette.org/contacts/subscribe")
 
-        let emailBox = await driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/article/div/div/div/div/div[3]/div[1]/div/div[2]/div/div/form/div/div[2]/input"))
-
-        await emailBox.sendKeys(testNames.email)
-
-        let firstNameBox = await driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/article/div/div/div/div/div[3]/div[1]/div/div[2]/div/div/form/div/div[3]/input"))
-
-        await firstNameBox.sendKeys(testNames.firstName)
-
-        let lastNameBox = await driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/article/div/div/div/div/div[3]/div[1]/div/div[2]/div/div/form/div/div[4]/input"))
-
-        await lastNameBox.sendKeys(testNames.lastName)
-
-        // let submitButton = await driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/article/div/div/div/div/div[3]/div[1]/div/div[2]/div/div/form/div/div[7]/input"))
-
-        // await lastNameBox.click()
+        await driver.findElement(By.id("mce-EMAIL")).click()
+        await driver.findElement(By.id("mce-EMAIL")).sendKeys("james.m.proctor+DDA1@gmail.com")
+        await driver.findElement(By.id("mce-FNAME")).sendKeys("Test")
+        await driver.findElement(By.id("mce-LNAME")).click()
+        await driver.findElement(By.id("mce-LNAME")).sendKeys("Tester")
     })
 
 })

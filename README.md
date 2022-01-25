@@ -1,4 +1,3 @@
-# QA Capstone
 ---
 * [Summary and Test Plans](#tests)
 * [APIs](#api)

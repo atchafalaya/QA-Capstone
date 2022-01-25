@@ -4,8 +4,8 @@ const chromedriver = require('chromedriver')
 
 const driver = new Builder().withCapabilities(Capabilities.chrome()).build()
 
-const SelectorsMethods = require('../QA-Capstone/selectorsMethods')
-const testPage = require('../QA-Capstone/selectorsMethods')
+const SelectorsMethods = require('./pageObjects/selectorsMethods')
+const testPage = require('./pageObjects/selectorsMethods')
 
 const testPage = new testPage(driver, 'https//www.lafayettesheriff.com/site.php')
 
