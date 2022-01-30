@@ -7,9 +7,11 @@
 * [About Me](#me)
 ---
 
-** <a name="summaries"></a>Summaries
-[Lafayette Parish Sheriff's Office](https://github.com/atchafalaya/QA-Capstone/blob/master/LPSO-Test-Report.md)
-[Downtown Lafayette Unlimited](https://github.com/atchafalaya/QA-Capstone/blob/master/DDA-Test-Report.md)
+## <a name="summaries"></a>Summaries<br>
+
+[Lafayette Parish Sheriff's Office](https://github.com/atchafalaya/QA-Capstone/blob/master/LPSO-Test-Report.md)<br>
+
+[Downtown Lafayette Unlimited](https://github.com/atchafalaya/QA-Capstone/blob/master/DDA-Test-Report.md)<br>
 Sites Tested:
 
 
