@@ -124,3 +124,4 @@ describe ("Lafayette Sheriff Tests", () => {
     })
 
 })
+//npx jest LPSO.test.js

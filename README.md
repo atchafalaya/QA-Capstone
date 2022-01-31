@@ -26,7 +26,7 @@ Sites Tested:
 [Trello](https://trello.com/b/M1dppKQV/qa-capstone-test-plans)
 
 ## <a name="api"></a>API Tests
-[LPSO Postman JSON collection](https://github.com/atchafalaya/QA-Capstone/blob/master/LPSO-Postman.json)
+[LPSO Postman JSON collection](https://github.com/atchafalaya/QA-Capstone/blob/master/LPSO-Postman.json)<br>
 [DDA Postman JSON collection](https://github.com/atchafalaya/QA-Capstone/blob/master/DDA-Postman.json)
 ![API tests](https://github.com/atchafalaya/QA-Capstone/blob/master/Postman_API_Requests.png)
 
