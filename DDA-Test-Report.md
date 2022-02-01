@@ -20,7 +20,7 @@ Tested function of buttons, clickable links and API
 * 10 passed
 * 1 failed
 
-![Automation Screenshot](https://github.com/atchafalaya/QA-Capstone/images/DDA-automation-screenshot.png)
+![Automation Screenshot](https://github.com/atchafalaya/QA-Capstone/tree/master/images/DDA-automation-screenshot.png)
 
 ## Test Summary
 
