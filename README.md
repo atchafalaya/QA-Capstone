@@ -31,5 +31,9 @@ Sites Tested:
 ![API tests](https://github.com/atchafalaya/QA-Capstone/blob/master/Postman_API_Requests.png)
 
 ---
+## Collaboration
+![Github branches and merges](https://github.com/atchafalaya/QA-Capstone/blob/master/GitHub_Collaboration.png)
+
+---
 ## <a name="me"></a>About Me
 James Proctor is a former oilfield diver, driller, and mudlogger who recently retired from the Army Reserve. When he's not trying to QA pages, you can find him researching geneaology. 
