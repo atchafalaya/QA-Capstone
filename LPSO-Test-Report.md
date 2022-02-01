@@ -20,7 +20,7 @@ Tested function of buttons, clickable links and API
 * 10 passed
 * 2 failed
 
-![Automation screenshot](https://github.com/atchafalaya/QA-Capstone/tree/master/images/LPSO-automation-screenshot.png)
+![Automation screenshot](https://github.com/atchafalaya/QA-Capstone/blob/master/images/LPSO-automation-screenshot.png)
 
 ## Test Summary
 

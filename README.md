@@ -29,11 +29,11 @@ Sites Tested:
 ## <a name="api"></a>API Tests
 [LPSO Postman JSON collection](https://github.com/atchafalaya/QA-Capstone/blob/master/LPSO-Postman.json)<br>
 [DDA Postman JSON collection](https://github.com/atchafalaya/QA-Capstone/blob/master/DDA-Postman.json)
-![API tests](https://github.com/atchafalaya/QA-Capstone/tree/master/images/Postman_API_Requests.png)
+![API tests](https://github.com/atchafalaya/QA-Capstone/blob/master/images/Postman_API_Requests.png)
 
 ---
 ## Collaboration
-![Github branches and merges](https://github.com/atchafalaya/QA-Capstone/tree/master/images/GitHub_Collaboration.png)
+![Github branches and merges](https://github.com/atchafalaya/QA-Capstone/blob/master/images/GitHub_Collaboration.png)
 
 ---
 ## <a name="me"></a>About Me
