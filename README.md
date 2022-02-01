@@ -9,9 +9,10 @@
 
 ## <a name="summaries"></a>Summaries<br>
 
-[Lafayette Parish Sheriff's Office](https://github.com/atchafalaya/QA-Capstone/blob/master/LPSO-Test-Report.md)<br>
+[Lafayette Parish Sheriff's Office Summary](https://github.com/atchafalaya/QA-Capstone/blob/master/LPSO-Test-Report.md)<br>
 
-[Downtown Lafayette Unlimited](https://github.com/atchafalaya/QA-Capstone/blob/master/DDA-Test-Report.md)<br>
+[Downtown Development Authority Summary](https://github.com/atchafalaya/QA-Capstone/blob/master/DDA-Test-Report.md)<br>
+
 Sites Tested:
 
 
@@ -28,11 +29,11 @@ Sites Tested:
 ## <a name="api"></a>API Tests
 [LPSO Postman JSON collection](https://github.com/atchafalaya/QA-Capstone/blob/master/LPSO-Postman.json)<br>
 [DDA Postman JSON collection](https://github.com/atchafalaya/QA-Capstone/blob/master/DDA-Postman.json)
-![API tests](https://github.com/atchafalaya/QA-Capstone/blob/master/Postman_API_Requests.png)
+![API tests](https://github.com/atchafalaya/QA-Capstone/images/Postman_API_Requests.png)
 
 ---
 ## Collaboration
-![Github branches and merges](https://github.com/atchafalaya/QA-Capstone/blob/master/GitHub_Collaboration.png)
+![Github branches and merges](https://github.com/atchafalaya/QA-Capstone/images/GitHub_Collaboration.png)
 
 ---
 ## <a name="me"></a>About Me

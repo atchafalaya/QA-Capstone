@@ -20,6 +20,8 @@ Tested function of buttons, clickable links and API
 * 10 passed
 * 2 failed
 
+![Automation screenshot](https://github.com/atchafalaya/QA-Capstone/images/LPSO-automation-screenshot.png)
+
 ## Test Summary
 
 Basic UI testing uncovered two defects of moderate severity: 

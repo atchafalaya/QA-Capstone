@@ -20,6 +20,8 @@ Tested function of buttons, clickable links and API
 * 10 passed
 * 1 failed
 
+![Automation Screenshot](https://github.com/atchafalaya/QA-Capstone/images/DDA-automation-screenshot.png)
+
 ## Test Summary
 
 Basic UI testing uncovered one defect of moderate severity: Pictures do not load under the "Join us Downtown for..." caption below the banner picture on the front page. Instead, code appears which presents a confusing look to the user.
