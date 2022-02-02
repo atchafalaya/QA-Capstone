@@ -1,6 +1,7 @@
 const {By} = require("selenium-webdriver")
+const basePage = require("./basePage")
 
-module.exports = class MyDDAPage {
+module.exports = class DDA extends basePage {
     driver;
     url;
     constructor(myDriver, myUrl){
