@@ -10,9 +10,10 @@ const testNames = require('./pageObjects/testNames')
 
 beforeAll(async () => {
     await driver.get("https://downtownlafayette.org")
-   
-})
 
+//afterAll(async () => {
+   // await driver.quit()
+})
 
 describe ("Downtown Development Authority Tests", () => {
 
@@ -22,12 +23,12 @@ describe ("Downtown Development Authority Tests", () => {
 
     it("Can click Events button and load Events page", async () => {
 
-        let eventsButton = await driver.findElement(By.xpath("/html/body/div[1]/div[1]/header/div/div[2]/nav/ul/li[1]/a"))
+        let eventsButton = await driver.findElement(By.css('#categories-5 > ul > li.cat-item.cat-item-73 > a')) 
         await eventsButton.click()
 
-        let eventsCheck = await driver.findElement(By.css("#et-boc > div > div > div.et_pb_section.et_pb_section_1.colorblock.et_pb_with_background.et_section_regular > div > div > div > div > h1")).getText()
+        let eventsCheck = await driver.findElement(By.css("#post-228758 > h2 > a")).getText()
 
-        expect(eventsCheck).toContain("Events")
+        expect(eventsCheck).toContain("Merry")
     })
 
     /////////////////
@@ -100,47 +101,47 @@ describe ("Downtown Development Authority Tests", () => {
         await downtownnewsButton.click()
     })
 
+    ///////////////////////
+    //// Drink button
+    //////////////////////
+
+    it("Can click Drink Button", async () => {
+
+        let drinkButton = await driver.findElement(By.css("#categories-6 > ul > li.cat-item.cat-item-13 > a"))
+        await drinkButton.click()
+
+    })
+
+    ///////////////////////
+    //// Eat button
+    //////////////////////
+
+    it("Can click Eat button", async () => {
+
+        let eatButton = await driver.findElement(By.css("#categories-6 > ul > li.cat-item.cat-item-12 > a"))
+        await eatButton.click()
+        
+    })
+
+    ///////////////////////
+    //// Festival button
+    //////////////////////
+
+    it("Can click Festival button", async () => {
+
+        let festivalButton = await driver.findElement(By.css("#categories-6 > ul > li.cat-item.cat-item-60 > a"))
+        await festivalButton.click()
+    })
+
+    ////////////////////////////
+    //// Lafayette sign  button
     ///////////////////////////
-    //// News and Media button
-    //////////////////////////
 
-    it("Can click News and Media Button", async () => {
-
-        let mediaButton = await driver.findElement(By.css("#menu-item-225025 > a"))
-        await mediaButton.click()
-
-    })
-
-    ///////////////////////
-    //// Resources button
-    //////////////////////
-
-    it("Can click Resources button", async () => {
-
-        let resourcesButton = await driver.findElement(By.css("#menu-item-225025 > a"))
-        await resourcesButton.click()
+    it("Can click Lafayette Sign button", async () => {
         
+        let signButton = await driver.findElement(By.css("#categories-6 > ul > li.cat-item.cat-item-20 > a"))
+        await signButton.click()
     })
-
-    ///////////////////////
-    //// Give Back button
-    //////////////////////
-
-    it("Can click Give Back button", async () => {
-
-        let giveButton = await driver.findElement(By.css("#menu-item-227103 > a"))
-        await giveButton.click()
-    })
-
-    ///////////////////
-    //// Shop button
-    //////////////////
-
-  //  it("Can click Shop button", async () => {
-        
- //       let shopButton = await driver.findElement(By.css("#menu-item-226966 > a"))
- //       await shopButton.click()
- //   })
 
     /////////////////////////////
     //// Subscribe to Newsletter
@@ -156,5 +157,5 @@ describe ("Downtown Development Authority Tests", () => {
     //     await driver.findElement(By.id("mce-LNAME")).click()
     //     await driver.findElement(By.id("mce-LNAME")).sendKeys("Tester")
     // })
-
+   
 }) //npx jest DDA.test.js

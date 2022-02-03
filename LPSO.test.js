@@ -11,9 +11,9 @@ beforeAll(async () => {
    
 })
 
-// afterAll(async() => {
-//     await driver.quit()
-//})
+ afterAll(async() => {
+     await driver.quit()
+})
 describe ("Lafayette Sheriff Tests", () => {
 
     ////////////////////////////
